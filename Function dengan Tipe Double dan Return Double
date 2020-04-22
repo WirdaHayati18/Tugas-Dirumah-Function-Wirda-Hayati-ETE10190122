@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//Membuat Function dengan Tipe Double dan Nilai Kembalian Double
+double pembagian (double x, double y) {
+	return x / y;
+}
+
+//Ini adalah Function Utama
+int main ( ) {
+	cout << " Hasil pembagian dari nilai x dan y adalah " << pembagian (500, 22);
+	cout << endl;
+	return 0;
+}

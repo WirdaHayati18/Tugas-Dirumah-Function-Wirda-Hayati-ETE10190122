@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//Membuat Function tanpa Parameter tetapi dengan Nilai Kembalian
+int pertambahan ( ) {
+	int x = 500, y = 22;
+	return x + y;
+}
+
+//Ini adalah Function Utama
+int main ( ) {
+	cout << pertambahan ( );
+	return 0;
+}

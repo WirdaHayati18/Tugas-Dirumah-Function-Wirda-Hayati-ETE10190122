@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+//Membuat Function dengan Parameter tanpa Nilai Kembalian
+void perkalian ( int x, int y ) {
+	cout << x * y;
+}
+
+//Ini adalah Function Utama
+int main ( ) {
+	perkalian (500, 22);
+}

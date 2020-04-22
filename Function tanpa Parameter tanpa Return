@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+//Membuat Function tanpa Parameter dan tanpa Nilai Kembalian
+void CetakHuruf ( ) {
+	cout << " Function tanpa Parameter " << endl;
+	cout << " Function tanpa Nilai Kembalian " << endl;
+}
+
+//Ini adalah Function Utama
+int main ( ) {
+	CetakHuruf ( );
+}

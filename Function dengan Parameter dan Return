@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+//Membuat Function dengan Parameter dan Nilai Kembalian
+int pengurangan (int x, int y) {
+	return x - y;
+}
+
+//Ini adalah Function Utama
+int main ( ) {
+	cout << " Hasil pengurangan dari nilai x dan y adalah " << pengurangan (500, 22);
+	cout << endl;
+	return 0;
+}
